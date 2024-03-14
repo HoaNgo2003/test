@@ -5,7 +5,6 @@ import { useAppDispatch, useAppSelector } from "../../../redux/hook";
 import { getAllProduct } from "../../../redux/Reducer/ProductSlice";
 import { Link } from "react-router-dom";
 import { getAllCategory } from "../../../redux/Reducer/CategorySlice";
-import { SearchSlide } from "../../../redux/Reducer/SearchSlice.js";
 import Item from "antd/es/list/Item.js";
 const Product = () => {
     const [input, setInput] = useState("");
